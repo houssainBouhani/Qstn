@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// pages
+import Register from './pages/authentication/register/Register';
+import Login from './pages/authentication/login/Login';
+import Landing from './pages/landing/Landing';
+import NavigationMenu from './shared/navbar/NavigationMenu';
+import Terms from './pages/terms/Terms';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//react router
+import { Routes, Route } from 'react-router-dom';
+
+const App = () => {
+	return (
+		<div className="position-relative">
+			<NavigationMenu />
+			<Routes>
+				<Route path="/" element={<Landing />} />
+				<Route path="/Auth/Register" element={<Register />} />
+				<Route path="/Auth/Login" element={<Login />} />
+				<Route path="/Terms-conditions" element={<Terms />} />
+			</Routes>
+		</div>
+	);
+};
 
 export default App;

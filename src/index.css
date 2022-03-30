@@ -1,13 +1,17 @@
+/* import fonts */
+
+@import url("./assets/fonts/inter/inter.css");
+@import url("./assets/fonts/poppins/poppins.css");
+@import url("./style/Buttons.css");
+@import url("./style/global.styles.css");
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 18px !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
