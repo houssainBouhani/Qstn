@@ -1,13 +1,11 @@
 // import page style
 import "./landing.style.css";
 
-
 // import hero avatar
-import hero from "../../assets/img/hero.svg";
-
+import hero from "../../assets/img/hero.svg"; 
 
 // social media component
-import SocialMedia from "../../shared/navbar/socialMedia/SocialMedia";
+import SocialMedia from "../../shared/socialMedia/SocialMedia";
 
 
 

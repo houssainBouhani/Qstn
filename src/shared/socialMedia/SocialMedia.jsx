@@ -2,12 +2,12 @@ import React from 'react'
 
 
 // images 
-import twitter from "../../../assets/img/twitter.svg";
-import reddit from "../../../assets/img/reddit.svg"
-import bitcoin from "../../../assets/img/bitcointalk.svg";
-import producthunt from "../../../assets/img/producthunt.svg";
-import github from "../../../assets/img/github.svg";
-import blockstack from "../../../assets/img/blockstack.svg";
+import twitter from "../../assets/img/twitter.svg";
+import reddit from "../../assets/img/reddit.svg"
+import bitcoin from "../../assets/img/bitcointalk.svg";
+import producthunt from "../../assets/img/producthunt.svg";
+import github from "../../assets/img/github.svg";
+import blockstack from "../../assets/img/blockstack.svg";
 
 
 // custom styles 

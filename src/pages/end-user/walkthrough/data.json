@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "description": "Hello Paul, Welcome to QSTN, here we will introduce you to the platform. In this example, we will introduce you to web3 to begin earning $ANSR.",
+        "type": "confirmation",
+        "button":"Start"
+    },
+    {
+        "id": 2,
+        "description": "First, do you have a NEAR wallet? If so, connect it in the top right. Near is a L1 layer blockchain which we use to keep track of responses. Not reauired but allows true authorship of data.",
+        "type": "confirmation",
+        "button":"yes"
+    },
+    {
+        "id": 3,
+        "description": "Second, do you want to contribute anonymously? This will lower your rate and require you to create another username. We use NEAR Personas to create another wallet for anonymous users.",
+        "type": "confirmation",
+        "button":"yes"
+    },
+    {
+        "id": 4,
+        "description": "Third, if you look in the top right, for each question you answer; your balance increases by one. Do you see the '2' points from answering previously?",
+        "type": "confirmation",
+        "button":"yes"
+    },
+    {
+        "id": 5,
+        "description": "Fourth, what is your experience with cryptocurrencies on a scale of 1-10?",
+        "type": "slider",
+        "button":"Submit"
+    },
+    {
+        "id": 6,
+        "description": "Fifth, please check all the cryptocurrencies you currently own",
+        "type": "multiple choices",
+        "button":"Next"
+    },
+    {
+        "id": 7,
+        "description": "How easy was that? By now you should have earned 5 ANSR in your balance (Top Right). Everyday, we will load new questions in the EARN portal for you to earn.",
+        "type": "confirmation",
+        "button":"Next"
+    },
+    {
+        "id": 8,
+        "description": "For the final step, please click below to confirm your NEAR wallet. This is where you will eventually store the ANSR credit and NFTs when transferrable.",
+        "type": "confirmation",
+        "button":"Near Names"
+    }
+]
