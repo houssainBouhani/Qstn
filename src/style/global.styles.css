@@ -10,7 +10,6 @@
 	top: 0;
 	right: 0;
 	left: 0;
-	padding-top: 100px;
 	min-height: 100vh;
 	background-image: url("../assets/img/main-bg.svg");
 	background-size: cover;
@@ -25,4 +24,13 @@
 	border-radius: 76px;
 	border: 0;
 	max-width: 898px;
+}
+
+.custom-card .custom-footer {
+	padding-top: 15px;
+	background: white!important;	
+}
+
+.dashboard-content {
+	width:calc(100% - 250px)
 }
