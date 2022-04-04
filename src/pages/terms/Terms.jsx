@@ -45,7 +45,7 @@ const Terms = () => {
             </Accordion>
           </div>
           <div className="container mt-5 justify-content-end d-flex">
-            <Link className="btn btn-primary primary-button" to={"/Dashboard"}>Agree</Link>
+            <Link className="btn btn-primary primary-button" to={"/Tutorial"}>Agree</Link>
           </div>
         </div>
       </div>

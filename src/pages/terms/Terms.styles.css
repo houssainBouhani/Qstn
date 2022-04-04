@@ -1,3 +1,7 @@
+.terms-container {
+	padding-top: 10%;
+}
+
 .terms-container .accordion-header .accordion-button {
 	background: #8468f5;
 	color: #fff;
@@ -8,6 +12,7 @@
 	border-radius: 16px !important;
 	background: #8468f5;
 	color: #fff;
+	margin-bottom: 10px;
 }
 
 .terms-container .accordion-header .accordion-button::after {

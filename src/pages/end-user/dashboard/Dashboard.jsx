@@ -1,8 +1,12 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 //side nav
 import SideNav from "../../../shared/sideNav/SideNav";
+import Nft from "../nft/Nft";
 import WalkThrough from "../walkthrough/WalkThrough";
+
+
 
 const Dashboard = () => {
   return (
@@ -11,7 +15,7 @@ const Dashboard = () => {
         <div className="row">
           <SideNav />
           <div className="dashboard-content">
-          <WalkThrough />
+          <Outlet/>
           </div>
         </div>
       </div>
