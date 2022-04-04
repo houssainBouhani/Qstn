@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "type": "yes/no",
+        "question": "question 1 : yes or no question",
+        "points": 15
+    },
+    {
+        "id": 2,
+        "type": "multiple",
+        "question": "question 2 : multiple choices questions , one apossible answer",
+        "possible_answer": [
+            {
+                "a": "option 1",
+                "b": "option 2",
+                "c": "option 3",
+                "d": "option 4",
+                "possible_answers":"1"
+
+            }
+        ],
+        "points": 20
+    },
+    {
+        "id": 3,
+        "type": "multiple",
+        "question": "question 2 : multiple choices questions , many apossible answer",
+        "answers": [
+            {
+                "a": "option 1",
+                "b": "option 2",
+                "c": "option 3",
+                "d": "option 4",
+                "possible_answers":"1+"
+            }
+        ],
+        "points": 20
+    },
+    {
+        "id": 4,
+        "type": "range",
+        "question": "question 4",
+        "answers": [
+            {
+                "start": 0,
+                "end": 10
+            }
+        ],
+        "points": 20
+    },
+    {
+        "id": 5,
+        "type": "open_type",
+        "question": "question 5 : open ended question",
+        "points": 20
+    }
+]
